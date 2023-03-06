@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejercicio1._3_Kency.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="Gray" Padding="24" CornerRadius="0">
+            <Label Text=" REGISTRO " HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+        <Label Text="Nombre: " FontSize="Medium"/>
+        <Entry Placeholder="  "/>
+        <Label Text="Apellido: " FontSize="Medium"/>
+        <Entry Placeholder="  "/>
+        <Label Text="Edad: " FontSize="Medium"/>
+        <Entry Placeholder="  "/>
+        <Label Text="Correo: " FontSize="Medium"/>
+        <Entry Placeholder="  "/>
+        <Label Text="Direccion: " FontSize="Medium"/>
+        <Entry Placeholder="  "/>
+
+        <Button Text="SALVAR" 
+                TextColor="Black" 
+                BackgroundColor="LightCyan" 
+                BorderColor="Aqua" 
+                BorderWidth="3"
+                CornerRadius="30"
+                WidthRequest="10"
+                HeightRequest="60"  
+            />
+
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+
+        </Label>
+    </StackLayout>
+
+</ContentPage>
+
